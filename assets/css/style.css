@@ -37,7 +37,7 @@
     width: 46%;
     background-image: url(../img/head-guara.svg);
     background-repeat: no-repeat;
-    background-position-x: 141px;
+    background-position-x: 109px;
     background-position-y: center;
     background-size: 260px;
 }
@@ -46,11 +46,11 @@
     position: relative;
     height: 105%;
     left: 55px;
-    top: -17px;
+    top: -20px;
 }
 
 .texts {
-    margin: 35px;
+    margin: 35px 0 35px 35px;
     color: #000000;
     font-family: Arial;
 }
@@ -72,4 +72,10 @@
 
 .column-1 {
     margin-right: 50px;
+}
+
+.column-2 img {
+    height: 30px;
+    margin: 5px 10px 0 0;
+    border-radius: 50%;
 }
